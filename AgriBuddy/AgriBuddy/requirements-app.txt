@@ -1,0 +1,15 @@
+# requirements-app.txt — minimal deps for the Gradio app runtime only
+# (Spark + MLflow are provided by the Databricks cluster environment)
+
+gradio==4.44.1
+huggingface_hub==0.23.4
+openai>=1.30.0
+databricks-sdk>=0.20.0
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+Pillow>=10.0.0
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+python-dotenv>=1.0.0

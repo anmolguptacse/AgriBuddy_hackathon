@@ -1,0 +1,30 @@
+# app.yaml — Databricks Apps entry point
+# Mirrors the exact pattern from nyaya-dhwani-hackathon reference repo.
+#
+# IMPORTANT: Databricks Apps does NOT support valueFrom/secretRef syntax.
+# All secrets are loaded at runtime inside app/main.py via the Databricks SDK.
+# Only plain name+value pairs go here.
+
+# command: ["python", "app/main.py"]
+
+# env:
+#   - name: "DATABRICKS_AI_GATEWAY_ENDPOINT"
+#     value: "databricks-meta-llama-3-3-70b-instruct"
+
+command: ["python", "app/main.py"]
+
+env:
+  - name: "DATABRICKS_AI_GATEWAY_ENDPOINT"
+    value: "databricks-meta-llama-3-3-70b-instruct"
+  - name: "DATABRICKS_HTTP_PATH"
+    value: "/sql/1.0/warehouses/sql/1.0/warehouses/024cca5a805bf73a"
+
+# command: ["python", "app/main.py"]
+
+# env:
+#   - name: "DATABRICKS_AI_GATEWAY_ENDPOINT"
+#     value: "databricks-meta-llama-3-3-70b-instruct"
+#   - name: "DATABRICKS_HTTP_PATH"
+#     value: "/sql/1.0/warehouses//sql/1.0/warehouses/024cca5a805bf73a"
+#   - name: "PORT"
+#     value: "8080"

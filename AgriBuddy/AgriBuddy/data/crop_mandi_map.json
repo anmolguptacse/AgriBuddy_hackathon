@@ -1,0 +1,30 @@
+{
+  "mandis": {
+    "Nashik": {
+      "state":    "Maharashtra",
+      "lat":      19.9975,
+      "lon":      73.7898,
+      "apmc_code": "MH-NK-01"
+    },
+    "Pune": {
+      "state":    "Maharashtra",
+      "lat":      18.5204,
+      "lon":      73.8567,
+      "apmc_code": "MH-PN-01"
+    }
+  },
+  "crops": {
+    "Onion": {
+      "aliases":           ["pyaaz", "kanda", "vengayam", "ulli"],
+      "harvest_months":    [11, 12, 1, 2],
+      "shelf_life_days":   10,
+      "rain_sensitivity":  "HIGH"
+    },
+    "Tomato": {
+      "aliases":           ["tamatar", "thakkali", "tomat"],
+      "harvest_months":    [1, 2, 3, 10, 11],
+      "shelf_life_days":   4,
+      "rain_sensitivity":  "VERY_HIGH"
+    }
+  }
+}
