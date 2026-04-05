@@ -9,8 +9,15 @@ Built for **Bharat Bricks Hacks 2026** | Track: **Swatantra (Indic AI)**
 
 ## What It Does
 
-AgriBuddy is an AI-powered agricultural advisor that gives Indian smallholder farmers a real-time, data-driven **SELL or HOLD** recommendation by combining APMC mandi price trends (ingested via Databricks Auto Loader into a Delta Lake medallion architecture), 10-day Prophet price forecasts tracked through MLflow, ICAR government advisories retrieved via FAISS-based RAG, live weather signals, and LLM-generated guidance from Databricks AI Gateway (Llama 4 Maverick) — all translated into 9 Indian languages using Sarvam Mayura and served through a FastAPI app deployed on Databricks Apps with a Genie-powered natural-language chat interface for ad-hoc mandi price queries.
-
+ndian farmers lose ₹40K–80K per season due to poor sell-timing. To solve this, we
+envisioned AgriBuddy: an intelligent assistant designed to help farmers time the market.
+The core idea was to build a robust, Databricks-powered ecosystem to process and deliver
+insights. We use Auto Loader to ingest real-time APMC mandi prices into a Delta Lake
+medallion pipeline, training Prophet forecasts tracked in MLflow. By cross-referencing
+these forecasts with weather data and ICAR advisories via FAISS RAG, the system
+evaluates trends to produce clear "SELL or HOLD" verdicts. Sarvam Mayura translates
+them into 9 regional languages, and Genie powers the entire conversational experience,
+allowing farmers to ask complex questions about the market in plain, natural language.
 ---
 
 ## Architecture Diagram
