@@ -9,7 +9,7 @@ Built for **Bharat Bricks Hacks 2026** | Track: **Swatantra (Indic AI)**
 
 ## What It Does
 
-ndian farmers lose ₹40K–80K per season due to poor sell-timing. To solve this, we
+Indian farmers lose ₹40K–80K per season due to poor sell-timing. To solve this, we
 envisioned AgriBuddy: an intelligent assistant designed to help farmers time the market.
 The core idea was to build a robust, Databricks-powered ecosystem to process and deliver
 insights. We use Auto Loader to ingest real-time APMC mandi prices into a Delta Lake
