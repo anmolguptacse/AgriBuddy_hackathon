@@ -79,7 +79,7 @@ allowing farmers to ask complex questions about the market in plain, natural lan
 │                                                                                      │
 │  ┌──────────────────────────────┐   ┌─────────────────────────────────────────────┐ │
 │  │  Databricks AI Gateway      │   │  Genie Conversation API                     │ │
-│  │  (Llama 4 Maverick)         │   │  Space: Mandi Prices Q&A                    │ │
+│  │  (Sarvam      )             │   │  Space: Mandi Prices Q&A                    │ │
 │  │                              │   │                                              │ │
 │  │  • System prompt: CropPulse │   │  • Natural language → SQL on Delta tables    │ │
 │  │  • Grounded recommendations │   │  • Returns columns + rows + SQL              │ │
